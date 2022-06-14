@@ -38,9 +38,6 @@ function draw() {
   dustbinObj.display();
   groundObject.display();
 
-  paperObj.debug=true;
-  paperObj.setCollider("circle",0,0,40);
-
 }
 
 function keyPressed(){
